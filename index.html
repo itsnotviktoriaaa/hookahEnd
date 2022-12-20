@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device - width, initial-scale = 1.0">
+    <title>Кальянная Мята Lounge</title>
+    <link rel="stylesheet" type="text/css" href="styles/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/slick-theme.css"/>
+    <link rel="stylesheet" href="node_modules/jquery-ui-dist/jquery-ui.min.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="src/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+</head>
+<body>
+
+
+<div class="forBackground">
+
+    <section class="first-screen">
+        <div class="container">
+            <header class="header">
+                <div class="header__left">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="Логотип">
+                        </a>
+                    </div>
+                    <div class="header__location">
+                        <div class="header__location-img">
+                            <img src="images/location-pin.png" alt="Локация">
+                        </div>
+                        <div class="header__location-address">
+                            Нижний Новгород, Ильинская улица, 3
+                        </div>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <div class="header__phone">
+                        <div class="header__phone-img">
+                            <img src="images/phone.png" alt="Телефон">
+                        </div>
+                        <div class="header__phone-phone">
+                            <a href="#">
+                                +7 (964) 837-73-74
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__timetable">
+                        <div class="header__timetable-first">
+                            Вс-Чт 12:00-02:00
+                        </div>
+                        <div class="header__timetable-second">
+                            Пт-Сб 12:00-06:00
+                        </div>
+                    </div>
+                </div>
+                <div class="header__burger" id="header-burger">
+                    <img src="images/burger.png" alt="Меню">
+                </div>
+            </header>
+            <div class="burger-menu" id="burger-menu">
+                <div class="burger-menu-main">
+                    <div class="burger-menu-main-blue">Меню</div>
+                    <div class="burger-menu-main-cancel" id="burger-cancel">
+                        <img src="images/cancel.png" alt="Закрыть">
+                    </div>
+                </div>
+                <div class="burger-menu-list">
+                    <div class="burger-menu-list-item" id="book-burger">Бронирование столика</div>
+                    <div class="burger-menu-list-item" id="menu-burger-item">Наше меню</div>
+                    <div class="burger-menu-list-item">3-D тур по кальянной</div>
+                    <div class="burger-menu-list-item" id="menu-contacts">Контакты</div>
+                    <div class="burger-menu-list-item" id="menu-feedback">Отзывы гостей</div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main__left wow animate__bounceInLeft">
+                    <div class="main__h1">
+                        <h1>
+                            КАЛЬЯННАЯ <span>МЯТА</span> LOUNGE
+                        </h1>
+                    </div>
+                    <div class="main__left-description">
+                        Качество и атмосфера вашего отдыха
+                    </div>
+                    <div class="main__left-buttons">
+                        <div class="left-button">
+                            <button id="show-menu" class="btn btn-blue">Посмотреть меню</button>
+                        </div>
+                        <div class="right-button">
+                            <button id="book-table" class="btn btn-transparent">Забронировать столик</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="basic">
+        <div class="container">
+            <h2>Почему нас выбирают?</h2>
+            <div class="basic__ellipse">
+                <img src="images/ellipse.png" alt="Преимущества">
+            </div>
+            <div class="basic__coals-img">
+                <img src="images/mainCoals.png" alt="Угли">
+            </div>
+            <div class="advantage basic__advantage-first wow animate__headShake">
+                Находимся <span>в самом центре</span> Нижнего Новгорода
+            </div>
+            <div class="advantage basic__advantage-second wow animate__headShake">
+                Собственная удобная <span>большая парковка</span>
+            </div>
+            <div class="advantage basic__advantage-third wow animate__headShake">
+                Более <span>100 видов</span> табака из разных стран
+            </div>
+            <div class="advantage basic__advantage-forth wow animate__headShake">
+                <span>5 лет</span> в дымной индустрии
+            </div>
+            <div class="advantage basic__advantage-firth wow animate__headShake">
+                <span>Sony PS</span> и <span>настольные игры</span> для душевного отдыха
+                <img class="basic__advantage-img" src="images/ellipseForAdvantage.png" alt="Затемнённый круг">
+            </div>
+        </div>
+    </section>
+
+    <section class="main__slider wow animate__fadeInLeftBig">
+        <div class="container">
+            <h2>Почувствуй мятную атмосферу</h2>
+            <div class="main__slider-wrapper">
+                <div class="fade">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/e6XZM2WU7SU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/e6XZM2WU7SU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/e6XZM2WU7SU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/e6XZM2WU7SU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/e6XZM2WU7SU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="main__mint">
+                    <img src="images/peppermint.png" alt="Мята">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main__menu">
+        <div class="container">
+            <h2>Наше меню</h2>
+            <div class="main__menu-background wow animate__zoomInUp">
+                <h3>Мята lounge</h3>
+                <div class="main__menu-positions">
+                    <div class="main__menu-position">
+                        <div class="main__menu-position-price main__menu-position-price-first">900 &#8381;</div>
+                        <div class="main__menu-position-drinks">
+                            <div class="main__menu-position-drink">
+                                Sherbe
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Adalya
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Afzal
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__menu-position">
+                        <div class="main__menu-position-price main__menu-position-price-second">1 100 &#8381;</div>
+                        <div class="main__menu-position-drinks">
+                            <div class="main__menu-position-drink">
+                                Darkside
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Fumari
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Nakhla
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Tangiers
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__menu-position">
+                        <div class="main__menu-position-price main__menu-position-price-third">1 400 &#8381;</div>
+                        <div class="main__menu-position-drinks">
+                            <div class="main__menu-position-drink">
+                                Мохито
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Баунти
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Фараон
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Дамский
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__menu-position">
+                        <div class="main__menu-position-price main__menu-position-price-forth">1 700 &#8381;</div>
+                        <div class="main__menu-position-drinks">
+                            <div class="main__menu-position-drink">
+                                Яблоко
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Апельсин
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Грейпфрут
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__menu-position">
+                        <div class="main__menu-position-price main__menu-position-price-fifth">2 000 &#8381;</div>
+                        <div class="main__menu-position-drinks">
+                            <div class="main__menu-position-drink">
+                                Кокос
+                            </div>
+                            <div class="main__menu-position-drink">
+                                Ананас
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__menu-position">
+                        <div class="main__menu-position-price main__menu-position-price-six">3 000 &#8381;</div>
+                        <div class="main__menu-position-drinks">
+                            <div class="main__menu-position-drink">
+                                Фирменный
+                            </div>
+                            <div class="main__menu-position-drink">
+                                кальян мята
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ourRooms">
+        <div class="container">
+            <h2>Наши залы</h2>
+            <div class="ourRooms__specifications wow animate__slideInLeft">
+                <div class="ourRooms__specifications-specific">
+                    <div class="specific-title">Для больших компаний</div>
+                    <div class="specific-description">
+                        Что может быть лучше, чем проводить время в шумной и дружной компании? Правильно, проводить
+                        время в
+                        отдельном зале! VIP комната или lounge зона, выбор за вами!
+                    </div>
+                    <div class="specific-image">
+                        <img src="images/group.png" alt="Группа">
+                    </div>
+                </div>
+                <div class="ourRooms__specifications-specific">
+                    <div class="specific-title">Банкеты и дни рождения</div>
+                    <div class="specific-description">
+                        Праздник это к нам. Ведь у нас любое важное событие становится
+                        не только веселым, но и выгодным для вас!
+                    </div>
+                    <div class="specific-image">
+                        <img src="images/balloons.png" alt="Группа">
+                    </div>
+                </div>
+                <div class="ourRooms__specifications-specific">
+                    <div class="specific-title">Игровая зона PS5</div>
+                    <div class="specific-description">
+                        Погрузитесь в мир консольных баталий на качественном уровне! Незабываемые впечатления и все
+                        новые
+                        игры ждут вас!
+                    </div>
+                    <div class="specific-image">
+                        <img src="images/joystick.png" alt="Группа">
+                    </div>
+                </div>
+                <div class="ourRooms__specifications-specific">
+                    <div class="specific-title">Место для свидания</div>
+                    <div class="specific-description">
+                        Пожалуй, лучший подарок для любимого человека. Ощущение праздника романтики окружит вас
+                        мгновенно,
+                        как только вы зайдете.
+                    </div>
+                    <div class="specific-image">
+                        <img src="images/heart.png" alt="Группа">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order wow animate__pulse">
+        <div class="container">
+            <h2>Бронирование столика</h2>
+            <div class="order__description">
+                Заполните форму и с вами свяжется менеджер для подтверждения брони
+            </div>
+            <div class="order__form">
+                <form action="#" method="post">
+                    <div class="order__form-bottom">
+                        <input id="input-name" type="text" placeholder="Ваше имя">
+                        <div class="form__invalid">
+                            Введите Ваше имя
+                        </div>
+                    </div>
+                    <div class="order__form-bottom">
+                        <input id="input-phone" type="text" placeholder="+7 (___) ___ - __ - __">
+                        <div class="form__invalid">
+                            Введите Ваш номер телефона
+                        </div>
+                    </div>
+                    <div class="order__form-bottom order__form-choose">
+                        <div class="order-wrapper">
+                            <input id="input-time" type="text" placeholder="Выберите время" disabled>
+                            <div class="form__invalid">
+                                Выберите время
+                            </div>
+                            <div class="order__form-choose-arrow">
+                                <img src="images/arrowUnder.png" alt="Стрелка">
+                            </div>
+                        </div>
+                        <div class="order__form-choose-list">
+                            <div class="list-active list-active-first">22:00</div>
+                            <div class="list-active list-active-second">22:30</div>
+                            <div class="list-active list-active-third">23:00</div>
+                            <div class="list-active list-active-forth">23:30</div>
+                            <div class="list-active list-active-fifth">00:00</div>
+                            <div class="list-active list-disable">00:30</div>
+                            <div class="list-active list-disable">01:00</div>
+                            <div class="list-active list-active-eight">01:30</div>
+                        </div>
+                    </div>
+                    <button id="main-book-btn" class="btn btn-order" type="button">Забронировать столик</button>
+                </form>
+            </div>
+            <div class="invite-message">
+                <div id="invite-message-cancel" class="invite-message-cancel">
+                    <img src="images/cancel.png" alt="Закрыть">
+                </div>
+                <div class="invite-message-h2">
+                    <h2>Спасибо, что выбрали нас!</h2>
+                </div>
+                <div class="invite-message-books">
+                    <div class="invite-message-books-text">Столик забронирован.</div>
+                    <div class="invite-message-books-dates">
+                        <div class="invite-message-books-dates-text">Дата:&nbsp;</div>
+                        <div class="invite-message-books-dates-new">05.03.21.</div>
+                    </div>
+                    <div class="invite-message-books-times">
+                        <div class="invite-message-books-times-text">Время:&nbsp;</div>
+                        <div class="invite-message-books-times-new">00:30</div>
+                    </div>
+                </div>
+                <div class="invite-message-description">
+                    В течение 10 минут с вами свяжется менеджер для подтверждения брони.
+                    Пожалуйста, ожидайте.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container">
+            <h2>Отзывы гостей</h2>
+            <div class="feedback__carousel wow animate__fadeInLeft">
+                <div class="multiple-items">
+                    <div>
+                        <div class="feedback__parts feedback__parts-begin">
+                            <div class="feedback__part feedback__part-begin">
+                                <div class="feedback__part-title">
+                                    <div class="feedback__part-title-img">
+                                        <img src="images/client1.png" alt="Клиент">
+                                    </div>
+                                    <div class="feedback__part-title-about">
+                                        <div class="feedback__part-title-about-name">
+                                            Сергей Калугин
+                                        </div>
+                                        <div class="feedback__part-title-about-status">
+                                            постоянный гость
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback__part-message">
+                                    Очень уютное заведение, прекрасные кальяны, очень клёвая чайная карта, отзывчивый
+                                    персонал,
+                                    прекрасная шаговая доступность от метро, собственная паркова.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feedback__parts feedback__parts-end">
+                            <div class="feedback__part feedback__part-end">
+                                <div class="feedback__part-title">
+                                    <div class="feedback__part-title-img">
+                                        <img src="images/client2.png" alt="Клиент">
+                                    </div>
+                                    <div class="feedback__part-title-about">
+                                        <div class="feedback__part-title-about-name">
+                                            Мария Синицына
+                                        </div>
+                                        <div class="feedback__part-title-about-status">
+                                            постоянный гость
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback__part-message feedback__part-message-unique">
+                                    Очень душевное, уютное место с прекрасной атмосферой! И, кстати,
+                                    вполне адекватные цены!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feedback__parts feedback__parts-begin">
+                            <div class="feedback__part feedback__part-begin">
+                                <div class="feedback__part-title">
+                                    <div class="feedback__part-title-img">
+                                        <img src="images/client4.png" alt="Клиент">
+                                    </div>
+                                    <div class="feedback__part-title-about">
+                                        <div class="feedback__part-title-about-name">
+                                            Евгения Судзиловская
+                                        </div>
+                                        <div class="feedback__part-title-about-status">
+                                            постоянный гость
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback__part-message">
+                                    Кальян очень неплохой, разные ценовые категории, где каждый сможет выбрать для себя
+                                    подходящий. В самом заведении крайне доброжелательная и спокойная атмосфера.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feedback__parts feedback__parts-end">
+                            <div class="feedback__part feedback__part-end">
+                                <div class="feedback__part-title">
+                                    <div class="feedback__part-title-img">
+                                        <img src="images/client3.png" alt="Клиент">
+                                    </div>
+                                    <div class="feedback__part-title-about">
+                                        <div class="feedback__part-title-about-name">
+                                            Антон Вестельников
+                                        </div>
+                                        <div class="feedback__part-title-about-status">
+                                            постоянный гость
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback__part-message feedback__part-message-unique">
+                                    Супер-место! Атмосферно, кальян отличный, персонал вежливый, музыка - все на высшем
+                                    уровне.
+                                    Прекрасно посидела и расслабилась после тяжелого рабочего дня! Обязательно приду
+                                    еще.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feedback__parts feedback__parts-begin">
+                            <div class="feedback__part feedback__part-begin">
+                                <div class="feedback__part-title">
+                                    <div class="feedback__part-title-img">
+                                        <img src="images/client5.png" alt="Клиент">
+                                    </div>
+                                    <div class="feedback__part-title-about">
+                                        <div class="feedback__part-title-about-name">
+                                            Маргарита Бока
+                                        </div>
+                                        <div class="feedback__part-title-about-status">
+                                            постоянный гость
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback__part-message">
+                                    Если хотите душевно, атмосферно и комфортно посидеть покурить калик, выпить вкусного
+                                    чая
+                                    или чего по-крепче - вам сюда. Очень уютное место и ребята невероятно гостепреимные
+                                    именно гостепреимные
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feedback__parts feedback__parts-end">
+                            <div class="feedback__part feedback__part-end">
+                                <div class="feedback__part-title">
+                                    <div class="feedback__part-title-img">
+                                        <img src="images/client6.png" alt="Клиент">
+                                    </div>
+                                    <div class="feedback__part-title-about">
+                                        <div class="feedback__part-title-about-name">
+                                            Владислав Калашников
+                                        </div>
+                                        <div class="feedback__part-title-about-status">
+                                            постоянный гость
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback__part-message feedback__part-message-unique">
+                                    Хорошее место посидеть в двоем или небольшой компанией! Приглушённый свет создаёт
+                                    уютную
+                                    атмосферу! Меню не самое дорогое для центра города!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer wow animate__headShake">
+        <div class="container">
+            <div class="footer__details">
+                <div class="footer__details-rights">
+                    <div class="rights-logo">
+                        <a href="#">
+                            <img src="images/logo-footer.png" alt="Логотип">
+                        </a>
+                    </div>
+                    <div class="rights-right">
+                        Все права защищены, 2022
+                    </div>
+                    <div class="rights-sites">
+                        <div class="rights-site rights-site-telegram">
+                            <a href="#">
+                                <img src="images/telegramAdaptive.png" alt="Телеграм">
+                            </a>
+                        </div>
+                        <div class="rights-site rights-site-instagram">
+                            <a href="#">
+                                <img src="images/instagramAdaptive.png" alt="Инстаграм">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__details-info">
+                    <div class="details-info-title">
+                        Информация
+                    </div>
+                    <div class="details-info-links">
+                        <div class="details-info-link" id="menu-footer">
+                            Меню
+                        </div>
+                        <div class="details-info-link">
+                            3-D тур по залам
+                        </div>
+                        <div class="details-info-link" id="order-footer">
+                            Бронирование столика
+                        </div>
+                        <div class="details-info-link">
+                            Контакты
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__details-contacts">
+                    <div class="details-contacts-title">
+                        Контакты
+                    </div>
+                    <div class="details-contacts-links">
+                        <div class="details-contacts-link">
+                            +7 (964) 837-73-74
+                        </div>
+                        <div class="details-contacts-link">
+                            Нижний Новгород, Ильинская улица, 3
+                        </div>
+                        <div class="details-contacts-link">
+                            <div class="details-contacts-link-time">
+                                Вс-Чт 12:00-02:00
+                            </div>
+                            <div>
+                                Пт-Сб 12:00-06:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__details-adaptive">
+                <div class="rights-logo">
+                    <a href="#">
+                        <img src="images/logo-footer.png" alt="Логотип">
+                    </a>
+                </div>
+                <div class="footer__details-adaptive-wrapper">
+                    <div class="footer__details-adaptive-left">
+                        <div class="rights-sites">
+                            <div class="rights-site rights-site-telegram">
+                                <a href="#">
+                                    <img src="images/telegramAdaptive.png" alt="Телеграм">
+                                </a>
+                            </div>
+                            <div class="rights-site rights-site-instagram">
+                                <a href="#">
+                                    <img src="images/instagramAdaptive.png" alt="Инстаграм">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__details-adaptive-right">
+                        <div class="location-address">
+                            <div class="location">
+                                <img src="images/location-pin.png" alt="Локация">
+                            </div>
+                            <div class="address">
+                                Нижний Новгород, Ильинская улица, 3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__details-adaptive-time">
+                    <div class="timetable">
+                        <div class="timetable-active">
+                            Вс-Чт 12:00-02:00
+                        </div>
+                        <div class="timetable-non">
+                            Пт-Сб 12:00-06:00
+                        </div>
+                    </div>
+                    <div class="phone">
+                        +7 (964) 837-73-74
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<div class="loader">
+    <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="src/script/script.min.js"></script>
+</body>
+</html>
