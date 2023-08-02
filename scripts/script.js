@@ -99,7 +99,10 @@ $(document).ready(function () {
         chooseArrow.toggleClass('open-arrow');
     }
 
-    document.addEventListener('click', showOrHideScheduleBlock);
+    document.addEventListener('click', () => {
+        chooseList.removeClass('open');
+        chooseArrow.removeClass('open-arrow');
+    });
 
     orderWrapper.click((event) => {
         event.stopPropagation();
